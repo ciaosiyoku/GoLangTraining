@@ -2,15 +2,18 @@ package main
 
 import "fmt"
 
+//Main line
 func main() {
+	//Print Hello world!!!
 	fmt.Println("Hello world!!!")
 
-	Adeh1()
+	//Declare a variable  and assign a value
+	dvsv()
 
 }
 
 //Declare a variable  and assign a value
-func Adeh1() {
+func dvsv() {
 	// var keyword
 	var a = 12
 	fmt.Println("a =", a)
@@ -19,16 +22,20 @@ func Adeh1() {
 	var c = 14
 	fmt.Println("c =", c)
 
+	fmt.Println("-")
+
 	// Short declaration
 	x := 42
 	fmt.Println("x =", x)
-	y := 100 + 24
+	y := 50 + 24
 	fmt.Println("y =", y)
 	z := "z = Osiyoku, Adeolu"
 	fmt.Println(z)
 
+	fmt.Println("-")
+
 	// Reassign a value to an already declared variable
-	x = 99
+	x = 77
 	fmt.Println("x new value is", x)
 
 }
