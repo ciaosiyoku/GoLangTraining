@@ -6,6 +6,7 @@ import "fmt"
 func main() {
 	//Print Hello world!!!
 	fmt.Println("Hello world!!!")
+	fmt.Println("-")
 
 	//Declare a variable  and assign a value
 	dvsv()
