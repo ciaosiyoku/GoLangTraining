@@ -11,6 +11,12 @@ func main() {
 	//Declare a variable  and assign a value
 	dvsv()
 
+	//Exploring types
+	exty()
+
+	//Exploring fmt packages
+	exfp()
+
 }
 
 //Declare a variable  and assign a value
@@ -22,7 +28,12 @@ func dvsv() {
 	fmt.Println("b =", b)
 	var c = 14
 	fmt.Println("c =", c)
-
+	var d int
+	fmt.Println("d =", d)
+	var e bool
+	fmt.Println("e =", e)
+	var f string
+	fmt.Println("f =", f)
 	fmt.Println("-")
 
 	// Short declaration
@@ -38,5 +49,42 @@ func dvsv() {
 	// Reassign a value to an already declared variable
 	x = 77
 	fmt.Println("x new value is", x)
+	fmt.Println("-")
 
+}
+
+// Exploring types
+func exty() {
+	var h = 33
+	fmt.Println("h =", h)
+	fmt.Printf("%T\n", h)
+	fmt.Println("-")
+	var i = "Adeh is learning golang"
+	fmt.Println("i =", i)
+	fmt.Printf("%T\n", i)
+	fmt.Println("-")
+	var j = true
+	fmt.Println("j =", j)
+	fmt.Printf("%T\n", j)
+	fmt.Println("-")
+
+}
+
+//Exploring fmt package
+func exfp() {
+	var l = 42
+
+	//Format printing
+	fmt.Println(l)
+	fmt.Printf("%T\n", l)
+	fmt.Printf("%b\n", l)
+	fmt.Printf("%x\n", l)
+	fmt.Printf("%#x\n", l)
+	fmt.Printf("%#x\t%b\t%T\t%x\n", l, l, l, l)
+
+	fmt.Println("-")
+
+	//Sprint Printing
+	m := fmt.Sprintf("%#x\t%b\t%T\t%x\n", l, l, l, l)
+	fmt.Println("m =", m)
 }
