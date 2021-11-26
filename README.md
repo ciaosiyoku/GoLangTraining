@@ -5,3 +5,6 @@ This course is designed to make a detailed progression of my go learning experie
 Hope you will find this interesting and if not, it's an indication that my go learning experience was boring.
 
 You are doing great already.
+
+
+This training was provided on Udemy by Todd McLeod.
