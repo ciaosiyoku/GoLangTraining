@@ -17,6 +17,8 @@ func main() {
 	//Exploring fmt packages
 	exfp()
 
+	//Creating and Converting User-Defined Types
+	cudt()
 }
 
 //Declare a variable  and assign a value
@@ -50,7 +52,6 @@ func dvsv() {
 	x = 77
 	fmt.Println("x new value is", x)
 	fmt.Println("-")
-
 }
 
 // Exploring types
@@ -67,7 +68,6 @@ func exty() {
 	fmt.Println("j =", j)
 	fmt.Printf("%T\n", j)
 	fmt.Println("-")
-
 }
 
 //Exploring fmt package
@@ -87,4 +87,26 @@ func exfp() {
 	//Sprint Printing
 	m := fmt.Sprintf("%#x\t%b\t%T\t%x\n", l, l, l, l)
 	fmt.Println("m =", m)
+}
+
+//Creating and Converting User-Defined Types
+var n int
+
+type Adeh int
+
+var o Adeh
+
+func cudt() {
+	n = 42
+	fmt.Println("n =", n)
+	fmt.Printf("%T\n", n)
+
+	o = 43
+	fmt.Println("o =", o)
+	fmt.Printf("%T\n", o)
+
+	//Converting Types
+	n = int(o)
+	fmt.Println("n =", n)
+	fmt.Printf("%T\n", n)
 }
