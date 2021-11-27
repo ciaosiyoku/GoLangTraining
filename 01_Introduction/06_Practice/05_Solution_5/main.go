@@ -11,12 +11,12 @@ func main() {
 	fmt.Println("x =", x)
 	fmt.Printf("%T\n", x)
 
-	fmt.Println("-")
+	fmt.Println("")
 
 	x = 77
 	fmt.Println("x again is", x)
 
-	fmt.Println("-")
+	fmt.Println("")
 
 	y = int(x)
 	fmt.Println("y =", y)

@@ -20,14 +20,14 @@ func main() {
 	fmt.Println("b =", b)
 	fmt.Printf("%T\n", b)
 
-	fmt.Println("-")
+	fmt.Println("")
 
 	fmt.Println("x =", x)
 	fmt.Printf("%T\n", x)
 	fmt.Println("y =", y)
 	fmt.Printf("%T\n", y)
 
-	fmt.Println("-")
+	fmt.Println("")
 
 	fmt.Println("z =", z)
 	fmt.Printf("%T\n", z)

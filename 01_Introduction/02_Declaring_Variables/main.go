@@ -16,7 +16,7 @@ func main() {
 	fmt.Println("e =", e)
 	var f string
 	fmt.Println("f =", f)
-	fmt.Println("-")
+	fmt.Println("")
 
 	// Short declaration
 	x := 42
@@ -26,7 +26,7 @@ func main() {
 	z := "z = Osiyoku, Adeolu"
 	fmt.Println(z)
 
-	fmt.Println("-")
+	fmt.Println("")
 
 	// Reassign a value to an already declared variable
 	x = 77

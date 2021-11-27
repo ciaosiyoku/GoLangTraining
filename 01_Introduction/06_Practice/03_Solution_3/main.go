@@ -11,7 +11,7 @@ func main() {
 	fmt.Println("y =", y)
 	fmt.Println("z =", z)
 
-	fmt.Println("-")
+	fmt.Println("")
 
 	s := fmt.Sprintf("%v\t%v\t%v\t", x, y, z)
 	fmt.Println("s =", s)

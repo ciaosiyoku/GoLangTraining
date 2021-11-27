@@ -10,7 +10,7 @@ func main() {
 	fmt.Println("x =", x)
 	fmt.Printf("%T\n", x)
 
-	fmt.Println("-")
+	fmt.Println("")
 
 	x = 42
 	fmt.Println("x again is", x)

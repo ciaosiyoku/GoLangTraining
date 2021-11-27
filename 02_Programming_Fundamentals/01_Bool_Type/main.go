@@ -9,7 +9,7 @@ func main() {
 	x = true
 	fmt.Println("x is now", x)
 
-	fmt.Println("-")
+	fmt.Println("")
 
 	//Double equal sign is for Equality Comparison
 	//Single equal sign makes it an Assignment/Operator

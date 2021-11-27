@@ -14,7 +14,7 @@ func main() {
 	fmt.Printf("%#x\n", l)
 	fmt.Printf("%#x\t%b\t%T\t%x\n", l, l, l, l)
 
-	fmt.Println("-")
+	fmt.Println("")
 
 	//Sprint Printing
 	m := fmt.Sprintf("%#x\t%b\t%T\t%x\n", l, l, l, l)
