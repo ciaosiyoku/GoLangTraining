@@ -1,24 +1,19 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
-type Adeh int
-
-var x Adeh
-var y int
+const (
+	a = 2018 + iota
+	b = 2018 + iota
+	c = 2018 + iota
+	d = 2018 + iota
+)
 
 func main() {
-	fmt.Println("x =", x)
-	fmt.Printf("%T\n", x)
-
-	fmt.Println("")
-
-	x = 77
-	fmt.Println("x again is", x)
-
-	fmt.Println("")
-
-	y = int(x)
-	fmt.Println("y =", y)
-	fmt.Printf("%T\n", y)
+	fmt.Println(a)
+	fmt.Println(b)
+	fmt.Println(c)
+	fmt.Println(d)
 }

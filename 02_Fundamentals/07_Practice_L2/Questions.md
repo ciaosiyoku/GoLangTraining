@@ -30,3 +30,11 @@ d. print that variable in decimal, binary and hex
 
 
 
+Question 5.
+Create a variable of tyoe string using a raw string literal and print it.
+
+
+
+Question 6.Using iota, create 4 constants for the last 4 years and print the constant values.
+
+

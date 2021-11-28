@@ -2,23 +2,15 @@ package main
 
 import "fmt"
 
-type Adeh int
-
-var x Adeh
-var y int
-
 func main() {
-	fmt.Println("x =", x)
-	fmt.Printf("%T\n", x)
+	//Raw string literal
+	a := `Here is something as a raw string literal
+"Adeh is ramping up on GoLang Programming"
+You will see an advanced version soon`
 
 	fmt.Println("")
 
-	x = 77
-	fmt.Println("x again is", x)
+	fmt.Println(a)
 
 	fmt.Println("")
-
-	y = int(x)
-	fmt.Println("y =", y)
-	fmt.Printf("%T\n", y)
 }
