@@ -1,40 +1,38 @@
 Quection 1.
-Write a program that prints a number in decimal, binary and hex.
+Print every number from 1 to 10,000
 
 
 
 Question 2.
-Using the following operators, write the expressions and assign their values to variables:
-  g. ==
-  h. <=
-  i. >=
-  j. !=
-  k. <
-  l. >
+Print every rune code point of the uppercase alphabet three times. Your output should look like this:
 
-Now print each of the variables.
+65
+   U+0041 'A'
+   U+0041 'A'
+   U+0041 'A'
+
+66
+   U+0042 'B'
+   U+0042 'B'
+   U+0042 'B'
+
+... through the rest of the alphabet
 
 
 
 Question 3.
-Create TYPED and UNTYPED constants. Print the values of the constants.
+Create a "for" loop using this syntax
+* for condition {}
+
+Have it print out the years you have been alive.
 
 
 
 Question 4.
-Write a program that
-a. assign an int to a variable
-b. print that int in decimal, binary and hex
-c. shifts the bits of that int over 1 position to the left, and assigns that variable
-d. print that variable in decimal, binary and hex
 
 
 
-Question 5.
-Create a variable of tyoe string using a raw string literal and print it.
 
 
-
-Question 6.Using iota, create 4 constants for the last 4 years and print the constant values.
 
 

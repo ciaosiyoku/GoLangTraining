@@ -3,6 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	x := 77
-	fmt.Printf("%d\t%b\t%#x\t", x, x, x)
+	for a := 0; a <= 10000; a++ {
+		fmt.Println(a)
+	}
+
+	fmt.Println("")
+
+	fmt.Println("Done")
 }
