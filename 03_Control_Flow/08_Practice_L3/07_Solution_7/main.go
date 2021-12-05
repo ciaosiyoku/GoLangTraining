@@ -2,20 +2,14 @@ package main
 
 import "fmt"
 
-const (
-	// untyped constant
-	a = 7
-
-	//typed constant
-	b string = "Adeh"
-)
-
 func main() {
-	fmt.Println("a =", a)
-	fmt.Printf("%T\n", a)
+	a := 42
+	if a == 40 {
+		fmt.Println("Our value was 40")
+	} else if a == 41 {
+		fmt.Println("Our value was 41")
+	} else {
+		fmt.Println("Our value was not 40 or 41")
+	}
 
-	fmt.Println("")
-
-	fmt.Println("b =", b)
-	fmt.Printf("%T\n", b)
 }

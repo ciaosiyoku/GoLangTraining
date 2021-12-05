@@ -3,14 +3,15 @@ package main
 import "fmt"
 
 func main() {
-	//Raw string literal
-	a := `Here is something as a raw string literal
-"Adeh is ramping up on GoLang Programming"
-You will see an advanced version soon`
+	for a := 10; a <= 100; a++ {
 
-	fmt.Println("")
+		x := a / 4
+		y := a % 4
 
-	fmt.Println(a)
+		fmt.Printf("%v divided 4 = %d remainder %d\n", a, x, y)
 
-	fmt.Println("")
+		//It can also be printed like this
+		//fmt.Printf("When %v is divided by 4, the remainder is %v\n", a, a%4)
+
+	}
 }

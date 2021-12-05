@@ -4,16 +4,10 @@ import (
 	"fmt"
 )
 
-const (
-	a = 2018 + iota
-	b = 2018 + iota
-	c = 2018 + iota
-	d = 2018 + iota
-)
-
 func main() {
-	fmt.Println(a)
-	fmt.Println(b)
-	fmt.Println(c)
-	fmt.Println(d)
+	a := 40
+	if a == 40 {
+		fmt.Println("Our value was 40")
+	}
+
 }
