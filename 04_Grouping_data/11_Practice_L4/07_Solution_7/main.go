@@ -3,13 +3,22 @@ package main
 import "fmt"
 
 func main() {
-	a := 42
-	if a == 40 {
-		fmt.Println("Our value was 40")
-	} else if a == 41 {
-		fmt.Println("Our value was 41")
-	} else {
-		fmt.Println("Our value was not 40 or 41")
-	}
+	jb := []string{"James", "Bond", "Shaken, not stirred"}
+	fmt.Println(jb)
+	mp := []string{"Miss", "Moneypenny", "Helloooooo, James"}
+	fmt.Println(mp)
 
+	fmt.Println("")
+
+	xp := [][]string{jb, mp}
+	fmt.Println(xp)
+
+	fmt.Println("")
+
+	for i, xs := range xp {
+		fmt.Println("Record: ", i)
+		for j, val := range xs {
+			fmt.Printf("\t Index position: %v\t Value is: %v\n", j, val)
+		}
+	}
 }

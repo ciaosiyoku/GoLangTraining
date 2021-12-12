@@ -3,10 +3,20 @@ package main
 import "fmt"
 
 func main() {
-	switch {
-	case false:
-		fmt.Println("Should not print")
-	case true:
-		fmt.Println("Should print")
+	m := map[string][]string{
+		"Bond_Jame":       []string{"Shaken, not stirred", "Martinis", "Women"},
+		"Moneypenny_Miss": []string{"James Bond", "Literature", "Computer Science"},
+		"No_Dr":           []string{"Being evil", "Ice cream", "Sunsets"},
+	}
+
+	fmt.Println(m)
+
+	fmt.Println("")
+
+	for a, v := range m {
+		fmt.Println("This is the record for", a)
+		for b, v2 := range v {
+			fmt.Println("\t", b, v2)
+		}
 	}
 }

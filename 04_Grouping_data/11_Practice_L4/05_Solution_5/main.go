@@ -3,15 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	for a := 10; a <= 100; a++ {
-
-		x := a / 4
-		y := a % 4
-
-		fmt.Printf("%v divided 4 = %d remainder %d\n", a, x, y)
-
-		//It can also be printed like this
-		//fmt.Printf("When %v is divided by 4, the remainder is %v\n", a, a%4)
-
-	}
+	x := []int{42, 43, 44, 45, 46, 47, 48, 49, 50, 51}
+	fmt.Println(x)
+	x = append(x[:3], x[6:]...)
+	fmt.Println(x)
 }

@@ -3,11 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	for a := 0; a <= 10000; a++ {
-		fmt.Println(a)
+	x := [5]int{2, 4, 6, 8, 5}
+
+	for i, v := range x {
+		fmt.Printf("For the position of %v\t we have value %v\n", i, v)
 	}
 
 	fmt.Println("")
 
-	fmt.Println("Done")
+	fmt.Printf("%T\n", x)
 }
