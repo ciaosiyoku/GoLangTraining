@@ -3,7 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	x := sum(2, 3, 4, 5, 6, 7, 8, 9)
+	xi := []int{
+		2, 3, 4, 5, 6, 7, 8, 9}
+	x := sum(xi...)
 	fmt.Println("The total = ", x)
 }
 
