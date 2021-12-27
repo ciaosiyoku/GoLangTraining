@@ -1,5 +1,4 @@
 Quection 1.
-
 a. Create a func with the identifier "foo" that returns an int
 
 b.  Create a func with the identifier "bar" that returns an int and a string
